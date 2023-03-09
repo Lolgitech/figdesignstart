@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 
+
 function Header() {
   return (
     <header>
-      <h1 className="logo">{/* <Link to=""> Remi Andreas Benbow</Link> */}</h1>
+      <h1 className="logo ">{/* <Link to=""> Remi Andreas Benbow</Link> */}</h1>
       <nav>
         <ul>
-          <li>
+          <li className="my-btn">
             <Link to="/">Home</Link>
+            
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
-          <li>
+          <li className="my-btn">
             <Link to="/Connect">Connect</Link>
           </li>
           <li>
@@ -27,6 +29,7 @@ function Header() {
         </nav> */}
         </ul>
       </nav>
+      
     </header>
   );
 }

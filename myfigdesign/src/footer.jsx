@@ -51,10 +51,10 @@ function Footer() {
         </li>
       </ul>
       <nav>
-          <CustomDropdown />
 
          
         </nav>
+{/* <CustomDropdown /> */}
     </footer>
   );
 }

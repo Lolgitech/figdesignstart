@@ -1,3 +1,4 @@
+import MyButton from "../components/buttons";
 import Footer from "../footer";
 function LandingPage() {
   return (
@@ -12,7 +13,7 @@ function LandingPage() {
           </small>
         </section>
         <section className="intro">
-          <h2 className="section-title">
+          <h2 className="section-title hero">
             The future is AI driven
             <span className="text-primary"> it will CREATE</span> Tomorrow's
             solutions.
@@ -44,8 +45,9 @@ function LandingPage() {
             </p>
           </p>
         </section>
+            
         <section>
-          <h2>
+          <h2 className="section-title hero">
             <small>Work experiences before i was "reborn"</small>
           </h2>
           <h3>
@@ -81,18 +83,18 @@ function LandingPage() {
           </header>
           <p></p>
           <div className="btn-group">
-            <a href="mailto:benbowremi@gmail.com" className="btn btn-primary">
+            <a href="mailto:benbowremi@gmail.com" className="btn btn-primary my-btn">
               Email
             </a>
             <a
               href="https://www.facebook.com/remi.benbow"
-              className="btn btn-primary"
+              className="btn btn-primary my-btn"
             >
               Facebook
             </a>
             <a
               href="https://www.instagram.com/remibenbow"
-              className="btn btn-primary"
+              className="btn btn-primary my-btn"
             >
               Instagram
             </a>
@@ -106,7 +108,7 @@ function LandingPage() {
           <div className="products">
             <div className="product">
               <img
-                src="./assets/images/75262127_10162356367435007_7480720663167107072_n.jpg"
+                src="../assets/images/75262127_10162356367435007_7480720663167107072_n.jpg"
                 alt=""
                 className="product__img"
               />
@@ -177,11 +179,12 @@ function LandingPage() {
               >
                 Add me on LinkedID
               </a>
+              <Footer />
             </div>
           </div>
         </section>
       </main>
-      <Footer />
+      
     </>
   );
 }
