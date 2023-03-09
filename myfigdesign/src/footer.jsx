@@ -1,13 +1,13 @@
 import AboutPage from "./routes/about/about.jsx";
 import ConnectPage from "./routes/connect/Connect.jsx";
 import HomePage from "./routes/home/Home.jsx";
-import Links from "./routes/links/Links.jsx";
+import Link from "./routes/links/Links.jsx";
+import CustomDropdown from "./components/CustomDroppDown.jsx";
 
 function Footer() {
   return (
     <footer>
       <ul className="footer-nav">
-        
         <li>
           <a href="tel:93051536">Or call me for a chat</a>
         </li>
@@ -50,8 +50,14 @@ function Footer() {
           <a href=""></a>
         </li>
       </ul>
+      <nav>
+          <CustomDropdown />
+
+         
+        </nav>
     </footer>
   );
 }
 
 export default Footer;
+

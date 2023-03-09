@@ -1,3 +1,4 @@
+import Footer from "../footer";
 function LandingPage() {
   return (
     <>
@@ -180,6 +181,7 @@ function LandingPage() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
