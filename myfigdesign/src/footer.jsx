@@ -2,7 +2,7 @@ import AboutPage from "./routes/about/about.jsx";
 import ConnectPage from "./routes/connect/Connect.jsx";
 import HomePage from "./routes/home/Home.jsx";
 import Link from "./routes/links/Links.jsx";
-import CustomDropdown from "./components/CustomDroppDown.jsx";
+
 
 function Footer() {
   return (

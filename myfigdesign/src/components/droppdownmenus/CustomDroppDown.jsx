@@ -1,6 +1,7 @@
 import { Menu } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
+
 const navlinks = [
   { to: "/", title: "Home" },
   { to: "/about", title: "About" },

@@ -1,4 +1,3 @@
-import MyButton from "../components/buttons";
 import Footer from "../footer";
 function LandingPage() {
   return (
